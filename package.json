@@ -1,4 +1,7 @@
-{
+{ "title": "Freelancer",
+    "name": "startbootstrap-freelancer",
+    "version": "5.0.1",
+    "description": "A freelancer portfolio HTML theme for Bootstrap.",
    
     "keywords": [
         "css",
