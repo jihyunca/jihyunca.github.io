@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "lizziekim.me/static/media/Tajawal-Medium.2bfe3ee2.ttf"
   },
   {
-    "revision": "de775c8cf7b215353f30e75066e046a2",
+    "revision": "68b89f7b1459cc70b0f71e1fcd6d5399",
     "url": "lizziekim.me/index.html"
   }
 ];
