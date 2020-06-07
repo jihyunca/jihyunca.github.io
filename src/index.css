@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Tajawal';
+  src: local('Tajawal'), url(./fonts/Tajawal/Tajawal-Medium.ttf) format('truetype');
+}
