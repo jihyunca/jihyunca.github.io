@@ -50,6 +50,9 @@ const GrayImage = styled.img`
     }
     text-align: center;
     margin: 0 auto;
+    @media (max-width: 768px) {
+        width: 80%;
+    }
 `;
 
 const SomeDiv = styled.div`
@@ -62,6 +65,7 @@ const SomeDiv = styled.div`
     @media (max-width: 768px) {
         margin-right: 10px;
         margin-left: 10px;
+        height: 100%;
     }
 `;
 
@@ -71,6 +75,10 @@ const IntroDiv = styled.div`
     margin-right: 200px;
     word-wrap: break-word;
     overflow: hidden;
+    @media (max-width: 768px) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 `;
 
 const ButtonDiv = styled.div`
@@ -104,6 +112,9 @@ const IntroTwo = styled.div`
     justify-content: center;
     text-align: center;
     border: 2px solid #AE9696;
+    @media (max-width: 768px) {
+        border: none;
+    }
     height: 300px;
 `;
 

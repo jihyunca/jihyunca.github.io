@@ -56,8 +56,7 @@ const SomeDiv = styled.div`
     height: 80vh;
     margin-top: 40px;
     @media (max-width: 768px) {
-        margin-right: 10px;
-        margin-left: 10px;
+        height: 100%;
     }
 `;
 
@@ -67,6 +66,10 @@ const IntroDiv = styled.div`
     margin-right: 200px;
     word-wrap: break-word;
     overflow: hidden;
+    @media (max-width: 768px) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 `;
 
 

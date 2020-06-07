@@ -26,22 +26,22 @@ const Sidebar = () => {
                 <ArrowContainer>
                     <ShapedArrow src={Arrow} onClick={() => scrollToRef(myRef)}></ShapedArrow>
                 </ArrowContainer>
-                <div ref={myRef}></div>
+                <Divider ref={myRef} />
                 <About />
                 <ArrowContainer>
                     <ShapedArrow src={Arrow} onClick={() => scrollToRef(nextRef)}></ShapedArrow>
                 </ArrowContainer>
-                <div ref={nextRef}></div>
+                <Divider ref={nextRef} />
                 <ExtraCurricular />
                 <ArrowContainer>
                     <ShapedArrow src={Arrow} onClick={() => scrollToRef(lastRef)}></ShapedArrow>
                 </ArrowContainer>
-                <div ref={lastRef}></div>
+                <Divider ref={lastRef} />
                 <Portfolio/>
                 <ArrowContainer>
                     <ShapedArrow src={Arrow} onClick={() => scrollToRef(contactRef)}></ShapedArrow>
                 </ArrowContainer>
-                <div ref={contactRef}></div>
+                <Divider ref={contactRef} />
                 <Contact />
                 <Button onClick={() => scrollToRef(topRef)}>Go back to the top</Button>
             </div>
@@ -50,6 +50,12 @@ const Sidebar = () => {
   }
 
 export default Sidebar;
+
+const Divider = styled.div`
+    @media (max-width: 768px) {
+       background-color: yellow;
+    }
+`;
 
 const Button = styled.button`
   /* Adapt the colors based on primary prop */
@@ -127,4 +133,7 @@ const ArrowContainer = styled.div`
     height: 10vh;
     align-items: center;
     justify-content: center;
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;

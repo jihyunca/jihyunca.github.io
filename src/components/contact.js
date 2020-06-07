@@ -56,6 +56,10 @@ const IntroDiv = styled.div`
     margin-right: 200px;
     word-wrap: break-word;
     overflow: hidden;
+    @media (max-width: 768px) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 `;
 
 
