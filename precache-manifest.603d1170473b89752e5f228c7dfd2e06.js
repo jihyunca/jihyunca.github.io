@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/hotel-paranoia.fc8e0ef8.png"
   },
   {
-    "revision": "ec6a94f758e9d4708f90",
+    "revision": "06c809ae455946224604",
     "url": "/static/css/main.bf87e0cd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/hack.64a8dbe1.png"
   },
   {
-    "revision": "ec6a94f758e9d4708f90",
-    "url": "/static/js/main.db1c9bf8.chunk.js"
+    "revision": "06c809ae455946224604",
+    "url": "/static/js/main.a5f862d4.chunk.js"
   },
   {
     "revision": "02cd7b94c3daab3420c1a8ff8dfc9f5f",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Tajawal-Medium.2bfe3ee2.ttf"
   },
   {
-    "revision": "f753dad1195bc0af0096633873498b9a",
+    "revision": "ed95b5a270d02be8b7ba8186730fe673",
     "url": "/index.html"
   }
 ];
