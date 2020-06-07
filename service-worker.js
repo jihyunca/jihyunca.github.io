@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "lizziekim.me/precache-manifest.4db82ca065762f3d87966c269103d6f1.js"
+  "/jihyunca.github.io/precache-manifest.4cbb29cc1ce83743b7910cd4af0e196f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("lizziekim.me/index.html", {
+workbox.routing.registerNavigationRoute("/jihyunca.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
