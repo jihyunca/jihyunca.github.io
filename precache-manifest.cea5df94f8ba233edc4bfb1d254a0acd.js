@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/Tajawal-Medium.2bfe3ee2.ttf"
   },
   {
-    "revision": "db6d5759768763e5c2b2496bebeec6d0",
+    "revision": "f753dad1195bc0af0096633873498b9a",
     "url": "/index.html"
   }
 ];
